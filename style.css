@@ -1,0 +1,85 @@
+/* - Very dark blue (main background): hsl(233, 47%, 7%)
+- Dark desaturated blue (card background): hsl(244, 38%, 16%)
+- Soft violet (accent): hsl(277, 64%, 61%) */
+/* - White (main heading, stats): hsl(0, 0%, 100%)
+- Slightly transparent white (main paragraph): hsla(0, 0%, 100%, 0.75)
+- Slightly transparent white (stat headings): hsla(0, 0%, 100%, 0.6) */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Overpass:wght@400;700&display=swap');
+
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    padding: 150px;
+    padding-top: 150px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 500px;
+    margin-right: 300px;
+    margin-top: 100px;
+    text-align: center;
+    width: 700px;
+    height: 250px;
+    
+}
+
+.main {
+    background-color:hsl(244, 38%, 16%);
+    font-size: 15px;
+    padding: 17px;
+    /* border-radius: 9px; */
+}
+.main h1 {
+    color:hsl(0, 0%, 100%);
+font-family:'inter', 'sans-serif';
+padding: 10px;
+font-size:22px;
+}
+.main p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'inter', 'sans-serif';
+}
+.main h5 {
+    color:  hsla(0, 0%, 100%, 0.6);
+    
+}
+
+img {
+ opacity: 0.5;
+ width:350px;
+ height: 250px;
+}
+.background {
+    background-color: hsl(277, 64%, 61%);   
+}
+
+.spacing h5 {
+    display: flex;
+    flex-direction:column; 
+}
+  
+ .spacing1 h5{ 
+     display: flex;
+     flex-direction: column;
+}
+.spacing2 h5{
+    display: flex;
+    flex-direction: column;
+}
+.container1 {
+    display:flex;
+    flex-direction:row;
+    gap: 50px;
+    font-family:'overpass','sans-serif';
+} 
+
+
+
+
+
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
